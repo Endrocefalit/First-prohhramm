@@ -2,8 +2,9 @@
 #include <iostream>
 #include <string>
 #define стринги std::string
+#define аут std::cout
 int main()
 {
     стринги приветствие = "hello world";
-    std::cout << приветствие;
+    аут << приветствие;
 }
